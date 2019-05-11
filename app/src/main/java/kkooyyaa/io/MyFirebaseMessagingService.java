@@ -12,6 +12,7 @@ import android.app.NotificationManager;
 import android.content.Context;
 import android.os.Build;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
@@ -32,6 +33,11 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         super.onMessageReceived(message);
         Log.d("DEBUGGG", "onMessageReceived token:${"+ message.toString() + "}");
 
+        //message.getData().get("title");
+
+        //Toast.makeText(this, message.getData().get("title"), Toast.LENGTH_LONG).show();
+
+        Log.d("DEBUGGG", message.getData().get("title"));
     }
 
     private void addChannelId() {
