@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "513738886535",
+    "firebase_url": "https://chofu-dorm.firebaseio.com",
+    "project_id": "chofu-dorm",
+    "storage_bucket": "chofu-dorm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513738886535:android:ebafabfbbe9471d1",
+        "android_client_info": {
+          "package_name": "kkooyyaa.io"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513738886535-vammnia1i8cm5h4a4qi19jmjs6ke0jrf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy8kUWcV3T2Q2OwEtWXmTistumDunx8nY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513738886535-vammnia1i8cm5h4a4qi19jmjs6ke0jrf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

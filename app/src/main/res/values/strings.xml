@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Chofu_Dorm</string>
+
+
+    <string name="list_how_unit">Unit</string>
+    <string name="list_how_lounge">Lounge</string>
+    <string name="list_how_Kitchen">Kitchen</string>
+    <string name="list_how_smoking">Smoking</string>
+    <string name="list_how_garbage">Garbage</string>
+    <string name="list_how_laundry">Laundry</string>
+
 </resources>

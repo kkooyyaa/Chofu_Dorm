@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Chofu_Dorm</string>
+    <string name="default_notification_channel_id" translatable="false">my_app_fcm_default_channel</string>
+
+
+    <string name="list_how_unit">ユニット</string>
+    <string name="list_how_lounge">ラウンジ</string>
+    <string name="list_how_Kitchen">キッチン</string>
+    <string name="list_how_smoking">スモーキング</string>
+    <string name="list_how_garbage">ゴミ</string>
+    <string name="list_how_laundry">ランドリー</string>
+
+
+</resources>
