@@ -15,7 +15,7 @@
             android:id="@+id/button18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="RuleUnit"
+            android:onClick="Unit"
             android:text="@string/list_how_unit" />
 
         <Button
@@ -29,6 +29,7 @@
             android:id="@+id/button22"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Kitchen"
             android:text="@string/list_how_Kitchen" />
 
         <Button

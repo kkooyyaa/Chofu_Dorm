@@ -9,6 +9,56 @@
     <string name="list_how_smoking">スモーキング</string>
     <string name="list_how_garbage">ゴミ</string>
     <string name="list_how_laundry">ランドリー</string>
+    
+    
+    <string name="Lounge_caution">
+        ☑ぜひ気軽に利用してください ！\n
+        ☑夜間は騒音に気をつけましょう。22時以降は特に！\n
+        ☑貴重品は自分で管理してください。
+    </string>
+    <string name="Lounge_secondLounge">
+        ☑このラウンジは別の建物の中にあり、22時までなら貸しきることができますが、使いたい場合は、予約が必要です。
+    </string>
+    <string name="Kitchen_caution1">
+        ☑使った食器や調理器具は洗って、拭いてください。\n☑必ずラウンジを出る前に片付けましょう！
+    </string>
+
+
+    <string name="Kitchen_refrigerator">
+        ☑冷蔵庫は、基本的には自分の部屋のものを使ってください。\n
+        ☑個人の食品を入れるときは、日付と部屋番号を書きましょう。\n
+        ☑長期間放置され、必要事項が書かれていないものは捨てられることがあります。\n
+        ☑基本的に保存は1週間までです。
+    </string>
+
+    <string name="Kitchen_rice">
+        ☑炊飯器は炊けたら放置しないで、中身を取り出し、内がまと蓋を洗ってください。
+    </string>
+
+
+    <string name="Kitchen_towel">
+        ☑お皿を拭くときは白色の布巾を、テーブルを拭くときは青色のものを使ってください。
+    </string>
+
+    <string name="Kitchen_Individual">
+        ☑個人の調味料などは、個人のボックスに保存してください。
+    </string>
+
+    <string name="Unit_caution">
+        ☑週に数回、清掃員の方が掃除して下さいます。\n
+        ☑部屋での水を沸騰させる以外の調理は厳禁です。
+        ☑入居者以外の夜0時から朝8時にかけての入館・宿泊は禁止です！
+        ☑壁が薄いので、思っている以上に音は響きます。静かにしましょう。
+
+
+    </string>
+
+    <string name="Unit_shower">
+        ☑シャワー室に水や髪の毛が残らないようにしましょう！
+    </string>
+
+
+
 
 
 </resources>
