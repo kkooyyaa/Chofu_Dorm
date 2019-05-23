@@ -40,17 +40,17 @@
             android:text="@string/list_how_laundry" />
 
         <Button
-            android:id="@+id/button20"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/list_how_smoking"
-        />
-
-        <Button
             android:id="@+id/button21"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="garbage"
             android:text="@string/list_how_garbage" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/list_how_smoking" />
 
     </LinearLayout>
 

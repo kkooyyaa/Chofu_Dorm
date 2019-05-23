@@ -10,45 +10,100 @@
     <string name="list_how_laundry">Laundry</string>
 
     <string name="Lounge_caution">
-        ☑Feel free to use these lounge rooms!\n☑Be careful not to be too noisy at night.\n☑Please keep your valuables with you.
+        ・Feel free to use these lounge rooms!\n・Be careful not to be too noisy at night.\n・Please keep your valuables with you.
     </string>
     <string name="Lounge_secondLounge">
-        ☑This is in another building and able to be used until 10pm.\n However you need make a reservation ahead of time
+        ・This is in another building and able to be used until 10pm.\n However you need make a reservation ahead of time
     </string>
 
     <string name="Kitchen_caution1">
-        ☑Wash and dry the tableware and utensils after each use.\n☑Return them to their original locations before you leave the kitchen.
+        ・Wash and dry the tableware and utensils after each use.\n・Return them to their original locations before you leave the kitchen.
     </string>
 
     <string name="Kitchen_refrigerator">
-        ☑Food must be stored in the refrigerator in each individual’s room\n
-        ☑All items stored in the communal refrigerator must be clearly marked with date and room number.\n
-        ☑Your food might be abandoned if you leave it for a while if it doesn’t have personal information on it.\n
-        ☑Basically, you should pick your food up before one week pass
+        ・Food must be stored in the refrigerator in each individual’s room\n
+        ・All items stored in the communal refrigerator must be clearly marked with date and room number.\n
+        ・Your food might be abandoned if you leave it for a while if it doesn’t have personal information on it.\n
+        ・Basically, you should pick your food up before one week pass
     </string>
     <string name="Kitchen_rice">
-        ☑Do not leave cooked rice in the rice cooker.\n☑Wash the container and inner lid.
+        ・Do not leave cooked rice in the rice cooker.\n・Wash the container and inner lid.
 
     </string>
 
     <string name="Kitchen_towel">
-        ☑Please use white towels to clean dishes and blue ones for tables.
+        ・Please use white towels to clean dishes and blue ones for tables.
     </string>
 
     <string name="Kitchen_Individual">
-        ☑Seasoning and food for personal use must be kept in your own food box.
+        ・Seasoning and food for personal use must be kept in your own food box.
     </string>
 
     <string name="Unit_caution">
-        ☑Cleaners come a few times a week. \n
-        ☑Do not cook here except boiling water.\n
-        ☑Overnight staying of non-residents from midnight to 8 o’clock in the morning is strictly prohibited.\n
-        ☑The wall is so thin that the sound you make in your room can go through to others’ rooms and vise versa. Let’s not be too noisy.\n
+        ・Cleaners come a few times a week. \n
+        ・Do not cook here except boiling water.\n
+        ・Overnight staying of non-residents from midnight to 8 o’clock in the morning is strictly prohibited.\n
+        ・The wall is so thin that the sound you make in your room can go through to others’ rooms and vise versa. Let’s not be too noisy.\n
     </string>
     <string name="Unit_shower">
-        ☑Clear away your hair and dry the floor of the shower room after each use.
+        ・Clear away your hair and dry the floor of the shower room after each use.
     </string>
-    
+
+    <string name="Laundryu_dryer">
+        ・It is in each lounge.\n
+        ・100 yen is required to use the dryers each time.
+    </string>
+    <string name="Laundry_cleaner">
+        ・It is in each lounge.\n
+        ・Please clean vacuums after you use them.
+    </string>
+    <string name="Laundry_laundry">
+        ・It is in each lounge and unit.\n
+        ・Do not leave laundry unattended.
+    </string>
+
+    <string name="Garbage_caution">
+        ・Make sure to buy special bags of Chofu-shi for garbage and separate them correctly.\n
+        ・You can buy them at a convenience store or a supermarket.
+    </string>
+
+    <string name="Garbage_burnable">
+        ・For Burnable garbage
+    </string>
+
+    <string name="Garbage_unburnable">
+        ・For unburnable garbage
+    </string>
+
+    <string name="Garbage_pet">
+        ・Wash the bottles, cans and pet bottles before you trash. \n
+        ・Make sure to peel off the label.
+    </string>
+
+    <string name="Emergency_note">
+        Troubles are to be reported to the Housing Manager or RA.
+    </string>
+
+    <string name="Emergency_housing_management">
+        ○Housing Management
+    </string>
+    <string name="Emergency_housing_management_note">
+    (Monday through Saturday 9:00 – 21:00)\n
+    ※Not available on Sunday, National holidays, 5 day Summer
+    holidays,5 day year end and new year holidays, or training day
+    </string>
+
+    <string name="Emergency_tmuoffice">
+        ○TMU International Affairs Office
+    </string>
+
+    <string name="Emergency_police">
+        ○Police
+    </string>
+
+    <string name="Emergency_ambulance">
+        ○Ambulance or Fire
+    </string>
 
 
 </resources>

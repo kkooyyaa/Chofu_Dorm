@@ -34,6 +34,12 @@ public class RuleActivity extends AppCompatActivity {
         startActivity(intentUn);
     }
 
+    public void garbage (View v) {
+        Intent intentGa = new Intent(this, Garbage.class);
+        startActivity(intentGa);
+    }
+
+
 
 
 }
