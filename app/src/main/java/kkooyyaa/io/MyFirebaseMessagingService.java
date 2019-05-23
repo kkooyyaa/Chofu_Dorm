@@ -10,6 +10,7 @@ import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Build;
 import android.util.Log;
 import android.widget.Toast;
@@ -32,12 +33,17 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     public void onMessageReceived(RemoteMessage message) {
         super.onMessageReceived(message);
         Log.d("DEBUGGG", "onMessageReceived token:${"+ message.toString() + "}");
-
         //message.getData().get("title");
-
         //Toast.makeText(this, message.getData().get("title"), Toast.LENGTH_LONG).show();
+        Log.d("DEBUGGG",  "test");
+        Intent intentFi = new Intent(this, LoungeRule.class);
+        intentFi.putExtra("text", "choice");
+        startActivity(intentFi);
 
-        Log.d("DEBUGGG", message.getData().get("title"));
+
+
+
+
     }
 
     private void addChannelId() {

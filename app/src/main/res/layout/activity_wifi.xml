@@ -4,15 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".wifi">
+    tools:context=".wifi"
+    android:screenOrientation="landscape"
+    >
 
-    <TextView
-        android:id="@+id/~~WFI Info~~"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="~~WFI Info~~"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/wifi" />
+
+    </LinearLayout>
+
 </RelativeLayout>

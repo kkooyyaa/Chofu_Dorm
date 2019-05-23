@@ -27,7 +27,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="●Laundry"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView19"
@@ -47,7 +48,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="●Dryer"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView21"
@@ -67,7 +69,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="●Cleaner"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView15"

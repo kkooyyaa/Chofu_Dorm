@@ -12,6 +12,7 @@ public class RuleActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rule);
+
     }
     public void RuleLounge(View v) {
         Intent intentLo = new Intent(this, LoungeRule.class);

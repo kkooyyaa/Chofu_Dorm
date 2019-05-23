@@ -48,7 +48,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="●Refrigerator"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView8"
@@ -68,7 +69,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="●Rice Cooker"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView10"

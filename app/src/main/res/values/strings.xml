@@ -104,6 +104,7 @@
     <string name="Emergency_ambulance">
         ○Ambulance or Fire
     </string>
+    <string name="title_activity_maps">Map</string>
 
 
 </resources>

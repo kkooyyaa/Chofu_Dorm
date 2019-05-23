@@ -11,46 +11,164 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/button18"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="Unit"
-            android:text="@string/list_how_unit" />
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/button19"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="RuleLounge"
-            android:text="@string/list_how_lounge" />
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/playfair_display_sc"
+                android:onClick="Unit"
+                android:text="@string/list_how_unit"
+                android:textSize="20sp" />
 
-        <Button
-            android:id="@+id/button22"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="Kitchen"
-            android:text="@string/list_how_Kitchen" />
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dorm_unit" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="laundry"
-            android:text="@string/list_how_laundry" />
+        </LinearLayout>
 
-        <Button
-            android:id="@+id/button21"
+        <View
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="garbage"
-            android:text="@string/list_how_garbage" />
+            android:layout_height="1dp"
+            android:layout_margin="3dp"
+            android:background="@android:color/background_dark" />
 
-        <Button
-            android:id="@+id/button20"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/list_how_smoking" />
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:layout_weight="1 "
+                app:srcCompat="@drawable/dorm_slounge" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:layout_weight="1 "
+                android:fontFamily="@font/playfair_display_sc"
+                android:onClick="RuleLounge"
+                android:text="@string/list_how_lounge"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="3dp"
+            android:background="@android:color/background_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/playfair_display_sc"
+                android:onClick="Kitchen"
+                android:text="@string/list_how_Kitchen"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dorm_kitchen" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="3dp"
+            android:background="@android:color/background_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:layout_weight="1 "
+                app:srcCompat="@drawable/dorm_laundry" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:layout_weight="1 "
+                android:fontFamily="@font/playfair_display_sc"
+                android:onClick="laundry"
+                android:text="@string/list_how_laundry"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="3dp"
+            android:background="@android:color/background_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:layout_weight="1 "
+                android:fontFamily="@font/playfair_display_sc"
+                android:onClick="garbage"
+                android:text="@string/list_how_garbage"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:layout_weight="1 "
+                app:srcCompat="@drawable/garbagebag3" />
+        </LinearLayout>
 
     </LinearLayout>
 

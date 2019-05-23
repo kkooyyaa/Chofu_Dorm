@@ -85,5 +85,30 @@
         ・ビン・缶・ペットボトルはラベルを剥がして洗ってから捨ててください
     </string>
 
+    <string name="Emergency_note">
+        困ったときは、管理人さんやRAに相談してください。
+    </string>
+
+    <string name="Emergency_housing_management">
+        ○管理人室
+    </string>
+    <string name="Emergency_housing_management_note">
+        (月～土 9：00～21：00）\n
+        ※日・祝日、夏季5日間、年末年始5日間を除く
+    </string>
+
+    <string name="Emergency_tmuoffice">
+        ○首都大学東京国際課
+    </string>
+
+    <string name="Emergency_police">
+        ○警察
+    </string>
+
+    <string name="Emergency_ambulance">
+        ○救急車と消防
+    </string>
+
+
 
 </resources>

@@ -31,7 +31,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void wifi(View v){
-        Intent intentEm = new Intent(this, emergency.class);
-        startActivity(intentEm);
+        Intent intentWi = new Intent(this, wifi.class);
+        startActivity(intentWi);
+    }
+
+    public void push(View v){
+        Intent intentPu = new Intent(this, MapsActivity.class);
+         startActivity(intentPu);
     }
 }
